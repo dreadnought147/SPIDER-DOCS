@@ -10,14 +10,15 @@
 |---|-------|-------|------|
 | 1 | Welcome + Problem Statement | Li | 3 min |
 | 2 | Who We Are | Li | 2 min |
-| 3 | Comic Stock Market & Vision | Nat | 6 min |
-| 4 | Wireframe Walkthrough | Benny | 10 min |
-| 5 | Value Proposition | Tshi | 5 min |
-| 6 | Closing + Q&A | All | 4 min |
+| 3 | Comic Stock Market & Vision | Nat | 7 min |
+| 4 | Wireframe Walkthrough | Benny | 6 min |
+| 5 | Value Proposition | Tshi | 7 min |
+| 6 | Closing + Q&A | All | 5 min |
 | | **Total** | | **30 min** |
 
-Slide 4 is the heaviest because it's the proof of the work.
 Slides 1 and 2 are short on purpose — get into the meat fast.
+Slides 3, 4, and 5 are roughly equal so no one person dominates
+the floor.
 
 ---
 
@@ -51,7 +52,7 @@ Walk-away thought: *"This team has the right mix to deliver this."*
 ---
 
 ## Slide 3 — Comic Stock: Market & Vision
-**Owner:** Nat · **Time:** 6 min
+**Owner:** Nat · **Time:** 7 min
 
 What to cover:
 - Comic Stock's vision: become South Africa's premier online
@@ -73,39 +74,130 @@ with a clear model — not a generic bookstore copy."*
 ---
 
 ## Slide 4 — Wireframe Walkthrough (the proof)
-**Owner:** Benny · **Time:** 10 min — the longest slide.
+**Owner:** Benny · **Time:** 6 min
 
-This is where the work shows. Plan it in three beats:
+Three beats. Each beat has script pointers — short lines you
+can say almost verbatim, or bend into your own voice.
 
 ### Beat 1 — Why checkout first (~1 min)
-- Without checkout there is no revenue. Phase 1 is the
-  foundation everything else is built on.
-- Bounded scope, clear success criteria.
 
-### Beat 2 — Walk through the digitized wireframe (~6 min)
-Go screen by screen:
-- **Home / listing** — comics with descriptions, prices, clear
-  add-to-cart.
-- **Cart** — editable quantities, remove, clear cart, voucher
-  field, totals breakdown including VAT and shipping.
-- **Delivery details** — saved or new address, delivery notes.
-- **Payment** — multiple methods (card, EFT, mobile).
-- **Confirmation** — short on-screen confirmation + order
-  number, full receipt sent by email.
+Script pointers:
+- *"Before I walk you through the screens, I want to explain
+  why we picked checkout as Phase 1 in the first place."*
+- *"The reason is simple: without a working checkout, the
+  business has no revenue. Everything else — recommendations,
+  reviews, social features — is built on top of this."*
+- *"It's also the riskiest part of the build, because it
+  touches third parties: the payment gateway, the logistics
+  partner, the email service. We wanted to validate those
+  integrations early, not last."*
+- *"So Phase 1 has a clear, bounded scope: get a customer
+  from cart to confirmation, securely, end to end."*
 
-### Beat 3 — How user feedback shaped this (~3 min)
-This is the part panelists will remember. Reference the report:
-- We tested the **paper mockup** with 5 people (2 technical,
-  3 end users).
-- Three things changed because of what they told us:
-  1. **Editable cart** — every end user tried to change
-     quantity and couldn't.
-  2. **Simpler confirmation page** — "I've already seen this
-     three times" → on-screen short, full details by email.
-  3. **Comic descriptions** — users wanted a Netflix-style
-     blurb to decide what to buy.
-- Sentiment summary: *"the bones are right, the flesh
-  needed work."*
+Transition line:
+- *"With that in mind, let me show you what we built."*
+
+### Beat 2 — Walk through the digitized wireframe (~3 min)
+
+Script pointers, screen by screen. Move at a steady pace —
+roughly 30 seconds per screen.
+
+**Home / Product Listing**
+- *"This is the entry point. Comics are displayed with a
+  cover image, title, price, and a short description — that
+  description was added because of user feedback, which I'll
+  come back to."*
+- *"The whole card is tappable, mobile-first by design."*
+
+**Product Detail**
+- *"Tapping a comic opens its full detail — bigger cover,
+  full description, price, and an Add-to-Cart button that's
+  large enough to actually hit on a phone."*
+
+**Cart**
+- *"This is the screen we put the most thought into. The
+  customer can see every item, change quantity using plus
+  and minus buttons, remove an item, or clear the cart
+  entirely."*
+- *"The totals breakdown is right here — subtotal, VAT,
+  shipping, and the grand total. We show all of it before
+  the customer commits."*
+- *"The voucher field sits inside the cart so customers can
+  apply a code without leaving the screen."*
+
+**Delivery Details**
+- *"From the cart, the customer goes to delivery. If they're
+  a returning user, their saved address is pre-filled — they
+  just confirm it."*
+- *"There's also a delivery notes field for things like
+  'gate code' or 'leave at reception.'"*
+
+**Payment**
+- *"Payment is handed off to a secure third-party gateway —
+  we don't store any card data on our side. The customer
+  picks their preferred method: card, EFT, or mobile."*
+- *"This is also where the order total is finalised so the
+  customer sees exactly what they're being charged."*
+
+**Confirmation**
+- *"After payment succeeds, the customer lands on a short
+  confirmation screen — just a thank you, the order number,
+  and a delivery estimate. The full receipt goes to their
+  email."*
+- *"And that's the complete checkout flow: cart to
+  confirmation."*
+
+Transition line:
+- *"Now I want to show you why some of these screens look
+  the way they do."*
+
+### Beat 3 — How user feedback shaped this (~2 min)
+
+Script pointers:
+
+Opening:
+- *"Before we built the digitized version you just saw, we
+  drew the whole flow on paper and tested it with five real
+  people — two technical testers and three end users."*
+- *"What we heard back changed the design in three specific
+  ways I want to call out."*
+
+Change 1 — Editable cart:
+- *"In the paper version, the cart was read-only. Every
+  single end user tried to change a quantity, and every
+  single one of them got stuck."*
+- *"One user said, 'I can't edit, and I can't delete from
+  what I see.' That's the moment we knew the cart needed
+  plus-minus buttons, a remove option, and a clear cart
+  action — all of which you saw on the cart screen."*
+
+Change 2 — Simpler confirmation page:
+- *"In the paper version, our confirmation page repeated
+  every detail the customer had already seen during
+  checkout. One user told us, 'I've already seen them three
+  times.'"*
+- *"So we cut the on-screen confirmation down to the
+  essentials — order number, thank you, delivery estimate
+  — and pushed the full receipt to email."*
+
+Change 3 — Comic descriptions:
+- *"Users wanted to know what they were buying before they
+  added it to the cart. One of them compared it directly to
+  Netflix — 'a short blurb that tells you what the comic
+  is.'"*
+- *"So every comic on the listing now has a description.
+  Small change, big effect on confidence at the point
+  of decision."*
+
+Closing line for the slide:
+- *"The way we summed up the testing in our report was
+  this: the bones are right, the flesh needed work. The
+  flow itself works — what we needed to fix was the
+  detail. And that's what the digitized wireframe is."*
+
+Handoff to Tshi:
+- *"And on that note, Tshi is going to take you through
+  why all of this matters for the business."*
 
 Walk-away thought: *"They didn't just design — they tested,
 listened, and improved."*
@@ -113,7 +205,7 @@ listened, and improved."*
 ---
 
 ## Slide 5 — Value Proposition
-**Owner:** Tshi · **Time:** 5 min
+**Owner:** Tshi · **Time:** 7 min
 
 What to cover:
 - Why Comic Stock wins:
@@ -137,7 +229,7 @@ deliberate first step toward a viable business."*
 ---
 
 ## Slide 6 — Closing + Q&A
-**Owner:** All · **Time:** 4 min
+**Owner:** All · **Time:** 5 min
 
 - One sentence close: *"Phase 1 is the foundation. Phase 2
   builds the experience on top of it."*
