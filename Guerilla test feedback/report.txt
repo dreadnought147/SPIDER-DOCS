@@ -1,0 +1,216 @@
+COMIC STOCK — GUERILLA TEST REPORT
+Phase 1 Checkout Paper Mockup
+==========================================
+
+[ PICTURE PLACEHOLDER: paper mockup — home / listing screen ]
+
+
+WHAT WE DID
+-----------
+We took our paper mockup of the Comic Stock checkout flow to five
+people and asked each of them to walk through buying a comic book
+from start to finish. We watched where they got stuck, where they
+hesitated, and what they assumed buttons would do. Two of the
+testers were technical (a product designer and a developer); the
+other three were normal end users — the kind of people who would
+actually buy a comic on the site.
+
+The point was simple: find out what works, find out what does not,
+and use that to inform the digitized mockup.
+
+
+WHO WE SPOKE TO
+---------------
+- Technical User 1 — product designer, gave us feedback on the
+  quality of the mockup itself rather than the flow.
+- Technical User 2 — developer, focused on UI consistency and
+  attention to detail.
+- End User 1 — first-time visitor, walked the full purchase flow.
+- End User 2 — two friends testing together, gamers, casual buyers.
+- End User 3 — experienced online shopper.
+
+
+[ PICTURE PLACEHOLDER: paper mockup — cart screen ]
+
+
+WHAT WE LEARNED — THE BIG THEMES
+--------------------------------
+
+1. THE CART NEEDS TO BE EDITABLE
+Every single end user tried to change something in the cart and
+could not. They wanted to increase quantity, remove an item, or
+clear the cart entirely. Right now the cart is read-only and that
+frustrated all of them. This was the most consistent piece of
+feedback we got.
+
+2. THE CHECKOUT ASKS FOR TOO MUCH
+Users felt that filling in delivery details, billing info and
+preferences during checkout is stressful. As one user put it,
+"when you are checking out, your mind is telling you about the
+money you are about to spend — you do not want extra stress."
+The expectation is that this information should be captured when
+the account is created, and then offered as a quick selection at
+checkout (saved address, saved payment method).
+
+3. THE CONFIRMATION PAGE REPEATS ITSELF
+Users said the order confirmation screen showed them the same
+information they had already seen two or three times during
+checkout. The preference was clear: keep the on-screen confirmation
+short (just "your order is confirmed" plus an order number) and
+send the full receipt by email.
+
+4. UNCLEAR HOW TO GET FROM HOME TO CART
+End User 1 added a comic to the cart but could not figure out how
+to actually open the cart from the home page. The cart icon was
+not obvious. Technical User 2 also flagged this — "your cart icon
+doesn't look like a cart and is in a weird place."
+
+5. WE ARE OVERPROMISING FEATURES
+Both technical and end users pointed at features we had drawn in
+(wishlist hearts, similar-item recommendations, reviews) and asked
+why they were there if the focus is the checkout. The advice was
+the same from multiple people: under-promise and over-deliver.
+Take the cool stuff out for now. Ship the basics properly first.
+
+6. MISSING DETAILS THAT ACTUALLY MATTER
+- No description of the comic on the listing page. Users wanted a
+  short Netflix-style blurb to decide whether to buy.
+- No VAT shown on prices (this is a legal requirement in SA).
+- No shipping cost shown until very late in the flow.
+- "Apple Pay" assumed without offering anything for Android users.
+
+7. THE FLOW ITSELF IS FINE
+This is worth saying clearly: nobody said the order of the steps
+was wrong. End User 3 said directly, "the flow is fine, it follows
+proper e-commerce flow." The structural decisions are good. The
+problems are at the level of detail, polish, and what we ask of
+the user inside each step.
+
+8. MOCKUP-QUALITY FEEDBACK (from the product designer)
+Technical User 1 told us our paper mockup needed more context on
+each screen — labels saying what page this is, numbers showing
+which step in the flow we're on. Useful for future testing
+sessions: decide what information you want out of the user before
+showing them anything.
+
+
+[ PICTURE PLACEHOLDER: paper mockup — checkout / payment screen ]
+
+
+THE RAW VOICE OF THE USERS
+--------------------------
+We want to capture what people actually said, in their own words.
+These are the lines that stuck with us when we listened back.
+
+On the cart being read-only:
+  "What if I wanted to remove one?"
+  "If I want to delete an item, I'm not so sure about this."
+  "I can't edit, and I can't delete from what I see."
+
+On checkout asking for too much:
+  "When you're checking out, your mind is telling you about the
+   money that you're about to spend. You do not want to have
+   extra stress of adding this type of information."
+  "I am a little bit annoyed, because now I have to fill in all
+   my details."
+
+On the confirmation page repeating itself:
+  "I've already seen them three times already."
+  "If anything, send an email with full details of everything."
+
+On overpromising features:
+  "Under-promise, and over-deliver."
+  "Be as basic as possible. Under promise, but over deliver."
+
+On the cart icon being unclear:
+  "How do I get to the wishlist? You've got wishlist icons here."
+  "Your cart icon, which doesn't look like a cart, in a weird place."
+  "Here you have add to cart. Here you have the cart icon.
+   Which one is it?"
+
+On missing details:
+  "There's no description of the comic."
+  "I don't see VAT."
+  "You never told me what am I paying for shipping."
+
+On the flow itself:
+  "The flow is fine. It follows proper e-commerce flow."
+  "As a customer, it's pretty straightforward, not too confusing.
+   Just minor things."
+
+On the mockup quality (from the product designer):
+  "You could go about improving these low fidelities is a bit
+   more context as to what screen I'm looking at."
+  "Labelling your pages that speaks to what you're trying to
+   visualize."
+
+
+COMMONALITIES — WHERE EVERYONE AGREED
+-------------------------------------
+Some pieces of feedback came up from more than one person. When
+multiple users say the same thing without prompting, that is the
+strongest signal we got.
+
+- Cart needs editing — said by all 3 end users.
+- Confirmation page repeats too much — said by 2 end users.
+- Cart icon / how to get to cart is unclear — said by 1 end user
+  AND the technical developer.
+- Don't overpromise cool features — said by 2 testers across
+  technical and end users.
+- The flow itself is acceptable — said by 2 end users directly.
+- Filling details from scratch is annoying — said by 2 end users.
+
+
+THE OVERALL SENTIMENT
+---------------------
+The feeling we walked away with was positive but humbling.
+Nobody told us we had built the wrong thing. Nobody got
+fundamentally lost. The structure of the checkout journey
+makes sense to people. What they kept catching us on was the
+small stuff — the details, the polish, and the features we
+added that we did not need.
+
+If we had to put the sentiment into one sentence: "the bones
+are right, the flesh needs work."
+
+
+WHAT WE CHANGED IN THE DIGITIZED MOCKUP
+---------------------------------------
+[ PICTURE PLACEHOLDER: digitized mockup — for comparison ]
+
+Based on the feedback above, the digitized version:
+
+- Adds +/- quantity buttons and a remove option in the cart.
+- Adds a "clear cart" action.
+- Shows a clearer cart icon in a more conventional location.
+- Adds a short description to comics on the listing.
+- Pulls saved address and saved payment method from the user's
+  account at checkout, with the option to edit if needed.
+- Trims the confirmation page to a simple confirmation message
+  plus order number, with the full receipt going to email.
+- Removes the wishlist, reviews and recommendations from Phase 1.
+- Shows shipping cost and VAT inside the cart total breakdown,
+  not only at the final step.
+- Replaces the Apple Pay assumption with a generic payment
+  method selector that includes card, EFT, and mobile options.
+
+
+WHAT WE DID NOT CHANGE — AND WHY
+---------------------------------
+- The overall step order of the checkout flow stays the same.
+  Multiple users confirmed it follows what they expect from
+  e-commerce.
+- We are keeping the account-based model. Even the user who said
+  "filling in details is annoying" assumed they had an account
+  already — that confirms the account-based decision rather than
+  contradicting it.
+
+
+CLOSING NOTE
+------------
+The biggest win from this round of testing is that the structure
+of our flow is sound. The problems are fixable details, not
+foundational mistakes. The next round of testing should be done
+on the digitized mockup, and we should go in with a clearer set
+of questions — exactly what the product designer told us at the
+start.
