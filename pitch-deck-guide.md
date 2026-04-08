@@ -24,7 +24,7 @@ the floor.
 
 ## Slide 1 — Welcome + Problem Statement
 **Owner:** Li · **Time:** 3 min
-
+https://miro.com/app/board/uXjVGo-XZxM=/?moveToWidget=3458764666785043794&cot=14
 What to cover:
 - Greet the panel, introduce the project name.
 - Open with the gap: South Africa has no dedicated online comic
