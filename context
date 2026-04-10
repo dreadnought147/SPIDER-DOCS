@@ -1,44 +1,0 @@
-Functional requirements:
-Non-functional requirements:
-Customer acquisition centers on account-based system
-Comic Stock will operate using a stock-based inventory model rather than drop-shipping
-Comic Stock will includes personalized recommendations
-enables customers to view, modify, and review items in their cart
-System will support multiple payment methods
-Seamless user experience
-Greater control over quality and fulfillment speed
-Frictionless purchase journey
-Having full control over the order
- Provision of a secure integration with a payment gateway
-Business Requirements
-The business must be able to Stock based Sales to ensure that customers can only purchase comic books that are currently in stock in the warehouse.
-
-Person 2
-Functional and Non-functional Requirements
-Functional  1. The system must be able to process payments, that is:  View, modify, and confirm cart items  Pay for cart items  Receive order confirmation 2. Incorporate social features that connect customers 3. The system must be account-based. 4. The system must permit the use of voucher codes, both generation and redemption 5. The system must personalize recommendations 6. The system must capture and validate delivery addresses and customer preferences   Non-Functional  1. Purchasing items should be simple, easy and frictionless. 2. The system must operate using a stock-based inventory. 3. Purchases and returns should be delivered quickly and reliably. 4. The system must be legal. 5. The system must be trustworthy and secure. 6. The system must support multiple payment methods
-
-todo for tomoorow
-TODO and submitted to bitbucket
-Business- requiremnests
-Paper Mock Flow - Benny
-Gather Real Feedback - Li
-Report - Li
-Digitize Paper Mock Up - Nat
-User Story Diagram - Tshi
-
-SLIDES
-Welcoming Slide  + Problem Statement - Li
-Who We Are - Li
-Comic Stock mARKET STUFF - Nat
-Mock up - Benny ( view the digitzed mockup folder)
-Value Proposition - Tshi
-
-
-what i need from you ___i s that, you need to help essentially format how we document, we are submitting this to bit bucket aswell not the slides though but from your knowledge of the case study you could help us define a well defined framework of what to talk about based on that order you gave us "YOU OUTLINE THE SLIDES THE SKELETON AND WHAT EACH PERSON DISCUSSES AS HOWN THERE"
-
-so for more clarity these are the things i want to do 
-1. a short intro tp bitbucket anjd how the submission directory should look like we were given acces to our group repo
-2. im respossbile for the report based on the feedback from the gurellia test, check the gurellia testing folder or docs read the user feedback and impose a report that uses simple english and very human and clear and concsive exrtaction of valuable insight from user experience of our paper mockups, which informed our digitized mockup
-3. try find the flow of if these slides structure makes sense to present, then have points based on your knowldge of teh stufy if this is fine, as an initial pitch to our client we still have many weeks of this 
-4. and i want to clean up our git repo so its not so md full and ugly it needs to be clean and stuff thats readabel even if its simple as just heading bullet points just to male sure evrything is docmunet , have the liberty to read through the entire directory and suggest changes to make the structure cohesive 
-5. if you can somehwat see the didgitized mockup, does it incoproare userfeedback etc

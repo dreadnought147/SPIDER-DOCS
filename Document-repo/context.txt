@@ -1,0 +1,15 @@
+10 Apr
+You have been selected as the preferred vendor to deliver 
+Comic Stock’s vision. The business has made some decisions 
+around the direction they’d like to take going forward:
+1. For the initial release, the business would like you to focus 
+on developing a web-based solution. Although mobile is 
+still a requirement, the business will delay this to a later 
+stage. 
+2. The public facing web site will be the primary focus.
+3. The business would also like to see what the plan and 
+effort would be to deliver public facing website (this would 
+include clearly defined user stories and relative estimates).
+4. Additionally, there will be administrative portal– the 
+business would like to see the requirements and user 
+stories that would be included for initial release.
